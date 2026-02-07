@@ -30,7 +30,8 @@ The system classifies the following **6 hand gestures**:
 5. Tripod  
 6. Rest 
 
-![Failed to load image](/image/gestures.png "Gestures")
+![Failed to load image](/images/gestures.png "Gestures")
+
 ---
 
 ## 📊 Dataset Overview
@@ -44,7 +45,7 @@ The system classifies the following **6 hand gestures**:
 **Total trials per gesture:**  
 25 trials × 4 sessions × 8 participants = 800 trials per gesture
 
-![Failed to load image](/image/datasetoverview.png "Dataset Overview")
+![Failed to load image](/images/datasetoverview.png "Dataset Overview")
 
 ###### Raw Data Taken From [Click Here](https://github.com/MoveR-Digital-Health-and-Care-Hub/posture_dataset_collection/tree/main/data).
 ---
@@ -52,7 +53,7 @@ The system classifies the following **6 hand gestures**:
 ## 🏗️ Model Architecture
 The proposed system uses **two parallel processing paths**, whose outputs are fused for final classification.
 
-![Failed to load image](/image/Architecture.png "Model Architecture")
+![Failed to load image](/images/Architecture.png "Model Architecture")
 
 ### 🔹 Feature Path
 - Raw sEMG signal
@@ -125,7 +126,7 @@ Gesture-wise FFT comparisons show clear separability, especially between active 
 - Epochs: 100
 - Evaluation: Train/Test split
 
-![Failed to load image](/image/fft.png "FFT Analysis")
+![Failed to load image](/images/fft.png "FFT Analysis")
 
 ---
 
@@ -147,7 +148,8 @@ Gesture-wise FFT comparisons show clear separability, especially between active 
 - Confusion Matrix
 - Train vs Test Accuracy Curve
 
-![Failed to load image](/image/Output.png "Evaluation Metrics")
+![Failed to load image](/images/Output.png "Evaluation Metrics")
+
 ---
 
 ## 🚀 Conclusion
